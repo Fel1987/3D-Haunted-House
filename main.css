@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.title {
+  position: absolute;
+  z-index: 2;
+  font-family: "Creepster", cursive;
+  color: #fd9226;
+  font-size: 100px;
+  top: 20px;
+  left: 20px;
+}
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 460px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 35px;
+  }
+}
+
+
+/*# sourceMappingURL=main.css.map*/
